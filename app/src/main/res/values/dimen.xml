@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="mainpadding">16dp</dimen>
+    <dimen name="subpadding">8dp</dimen>
+    <dimen name="titleheading">16sp</dimen>
+    <dimen name="contenttext">16sp</dimen>
+    <dimen name="ele">4dp</dimen>
+    <dimen name="radius">4dp</dimen>
+    <dimen name="imageHeight">200dp</dimen>
+</resources>

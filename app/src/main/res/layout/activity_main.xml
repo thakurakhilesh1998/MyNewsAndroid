@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    android:layout_height="match_parent"
+    android:id="@+id/relativeLayout"
+    tools:context=".MainActivity">
+<androidx.recyclerview.widget.RecyclerView
+    android:id="@+id/rvNewsArticles"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="gone"/>
+    <cz.intik.overflowindicator.OverflowPagerIndicator
+        android:id="@+id/view_pager_indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+         />
+    <TextView
+        android:id="@+id/tvSomeThing"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/somethingwrong"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="@dimen/titleheading"
+        android:visibility="gone"
+        android:gravity="center_horizontal|center_vertical"
+        />
+</RelativeLayout>

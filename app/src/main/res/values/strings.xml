@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">My News App</string>
+    <string name="read_more"><u>Read More...</u></string>
+    <string name="publish">Publish on: </string>
+    <string name="source">Source: </string>
+    <string name="datenotav">Date is not available</string>
+    <string name="desnotav">Description is not available</string>
+    <string name="sourcena">Source is not Available</string>
+    <string name="titlena">Title is not Available</string>
+    <string name="somethingwrong">Some Thing Wrong Happens</string>
+    <string name="loading">Loading Data....</string>
+    <string name="notfound">Page No found</string>
+    <string name="open">Open With</string>
+</resources>
+
